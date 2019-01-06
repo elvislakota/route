@@ -11,6 +11,15 @@ If you notice compliance oversights, please send a patch via pull request.
 
 [PSR-7]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-7-http-message.md
 
+## Install
+
+Via Composer
+
+``` bash
+$ composer require elvislakota/router
+```
+
+
 ## Requirements
 
 The following versions of PHP are supported by this version.

@@ -1,8 +1,8 @@
 {
     "name": "elvislakota/router",
     "description": "Fast routing built with FastRoute.",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+     "minimum-stability": "dev",
+    "prefer-stable": true
     "keywords": [
         "elvislakota",
         "route",

@@ -1,0 +1,40 @@
+{
+    "name": "elvislakota/router",
+    "description": "Fast routing built with FastRoute.",
+    "keywords": [
+        "elvislakota",
+        "route",
+        "router",
+        "dispatcher",
+        "psr-7",
+        "psr7",
+        "psr-15",
+        "psr15"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elvis Lakota",
+            "email": "elvisstudioss@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "elvislakota\\Router\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "elvislakota\\Router\\": "tests"
+        }
+    },
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "narrowspark/http-emitter": "^0.7.0",
+        "zendframework/zend-diactoros": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    }
+}

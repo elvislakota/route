@@ -16,7 +16,7 @@ If you notice compliance oversights, please send a patch via pull request.
 Via Composer
 
 ``` bash
-$ composer require elvislakota/router
+$ composer require elvislakota/router:dev-master
 ```
 
 

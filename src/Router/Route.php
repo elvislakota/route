@@ -35,11 +35,8 @@ class Route{
     public function __construct(string $method, string $uri, callable $callable, MiddlewareInterface $middleware = null){
         $this->method = $method;
         $this->uri = $uri;
-        if ($middleware !== null){
-            $this->callable = ['callable' => $callable, 'middleware' => $middleware];
-        }else{
-            $this->callable = ['callable' => $callable];
-        }
+        $this->callable = ['callable' => $callable, 'middleware' => $middleware];
+      
     }
 
 

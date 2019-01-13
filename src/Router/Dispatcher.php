@@ -195,8 +195,7 @@ class Dispatcher extends Emitter{
         $callableInfo = $this->extractCallableInfo($callable['callable']);
         $Controller = new $callableInfo['class'];
 
-
-        $outputSuccess = call_user_func_array([$Controller, $callableInfo['method']], $vars);
+        $outputSuccess = call_user_func([$Controller, $callableInfo['method']], $vars);
         $this->setServerResponse($outputSuccess);
         return $outputSuccess;
     }
